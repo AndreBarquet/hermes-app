@@ -8,7 +8,7 @@ import dns from 'node:dns'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 1997,
+    port: 3000,
   },
   resolve: {
     alias: {
